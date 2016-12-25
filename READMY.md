@@ -35,7 +35,7 @@ set incsearch "инкрементальный поиск
 
 [http://vimawesome.com/](http://vimawesome.com/)
 
-### Установка vim-plug
+## Установка vim-plug
 
 #### Для установки vim-plug введите следующую команду в консоли
 ```
