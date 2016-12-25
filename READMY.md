@@ -60,7 +60,7 @@ set number "нумерация строк
 set expandtab "заменяем табы на пробелы
 "set tabstop=2 "размер таба - 2 пробела
    
-set hlsearch "подсветка поисковых резкльтатов
+set hlsearch "подсветка поисковых результатов
 set incsearch "инкрементальный поиск
 ```
 #### Устанавливаем плагины
@@ -86,7 +86,7 @@ set number "нумерация строк
 set expandtab "заменяем табы на пробелы
 "set tabstop=2 "размер таба - 2 пробела
    
-set hlsearch "подсветка поисковых резкльтатов
+set hlsearch "подсветка поисковых результатов
 set incsearch "инкрементальный поиск
 
 "mappings
@@ -110,7 +110,7 @@ set expandtab "заменяем табы на пробелы
 "set tabstop=2 "размер таба - 2 пробела
 syntax on
    
-set hlsearch "подсветка поисковых резкльтатов
+set hlsearch "подсветка поисковых результатов
 set incsearch "инкрементальный поиск
 
 "mappings
