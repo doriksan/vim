@@ -27,5 +27,44 @@ set incsearch "инкрементальный поиск
 
 [https://github.com/VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim)
 
-[]()
+[https://github.com/tpope/vim-pathogen](https://github.com/tpope/vim-pathogen)
+
+[https://github.com/junegunn/vim-plug](https://github.com/junegunn/vim-plug)
+
+### Установка vim-plug
+
+1. Для установки vim-plug введите следующую команду в консоли
+
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+2. Минимальная конфигурация .vimrc
+```
+call plug#begin('~/.vim/plugged')
+
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
+call plug#end()
+```
+
+Добавляем этот код в начало нашего .vimrc, в итоге получаем это
+
+```
+call plug#begin('~/.vim/plugged')
+
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
+call plug#end()
+
+set number "нумерация строк
+set expandtab "заменяем табы на пробелы
+"set tabstop=2 "размер таба - 2 пробела
+   
+set hlsearch "подсветка поисковых резкльтатов
+set incsearch "инкрементальный поиск
+```
+
+
 
