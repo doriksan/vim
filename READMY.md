@@ -68,3 +68,28 @@ set incsearch "инкрементальный поиск
 2. `:source` ~/.vimrc - вычитываем файл
 3. `:PlugInstall` - устанавливаем плагины
 
+#### Добавляем mapping для нашего плагина
+```
+"mappings
+
+map <C-n> :NERDTreeToggle<CR>
+```
+Получаем такой .vimrc
+```
+call plug#begin('~/.vim/plugged')
+
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
+call plug#end()
+
+set number "нумерация строк
+set expandtab "заменяем табы на пробелы
+"set tabstop=2 "размер таба - 2 пробела
+   
+set hlsearch "подсветка поисковых резкльтатов
+set incsearch "инкрементальный поиск
+
+"mappings
+
+map <C-n> :NERDTreeToggle<CR>
+```
