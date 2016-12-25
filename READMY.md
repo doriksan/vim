@@ -31,6 +31,10 @@ set incsearch "инкрементальный поиск
 
 [https://github.com/junegunn/vim-plug](https://github.com/junegunn/vim-plug)
 
+## Библиотека плагинов vim
+
+[http://vimawesome.com/](http://vimawesome.com/)
+
 ### Установка vim-plug
 
 #### Для установки vim-plug введите следующую команду в консоли
