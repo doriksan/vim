@@ -117,3 +117,31 @@ set incsearch "инкрементальный поиск
 
 map <C-n> :NERDTreeToggle<CR>
 ```
+#### Устанавливаем цветовую схему
+Используем тему [gruvbox](https://github.com/morhetz/gruvbox)
+```
+"colorschemes
+Plug 'morhetz/gruvbox'
+```
+Получаем такой .vimrc
+```
+call plug#begin('~/.vim/plugged')
+
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+"colorschemes
+Plug 'morhetz/gruvbox'
+
+call plug#end()
+
+set number "нумерация строк
+set expandtab "заменяем табы на пробелы
+"set tabstop=2 "размер таба - 2 пробела
+syntax on
+   
+set hlsearch "подсветка поисковых результатов
+set incsearch "инкрементальный поиск
+
+"mappings
+
+map <C-n> :NERDTreeToggle<CR>
+```
