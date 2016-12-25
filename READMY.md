@@ -33,14 +33,12 @@ set incsearch "инкрементальный поиск
 
 ### Установка vim-plug
 
-1. Для установки vim-plug введите следующую команду в консоли
-
+#### Для установки vim-plug введите следующую команду в консоли
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-
-2. Минимальная конфигурация .vimrc
+#### Минимальная конфигурация .vimrc
 ```
 call plug#begin('~/.vim/plugged')
 
@@ -65,6 +63,8 @@ set expandtab "заменяем табы на пробелы
 set hlsearch "подсветка поисковых резкльтатов
 set incsearch "инкрементальный поиск
 ```
-
-
+#### Устанавливаем плагины
+1. `:w` - сохраняем файл
+2. `:source` ~/.vimrc - вычитываем файл
+3. `PlugInstall` - устанавливаем плагины
 
