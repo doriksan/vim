@@ -1,4 +1,4 @@
-# vim
+# Руководство по vim
 
 Начинать изучение vim принято с vimtutor, для этого в консоли нужно набрать `vimtutor`, но я рекомендую переходить к vimtutor после этой статьи [Vim : Режимы](http://rus-linux.net/MyLDP/BOOKS/Vim/prosto-o-vim-07.html)
 
