@@ -93,3 +93,27 @@ set incsearch "инкрементальный поиск
 
 map <C-n> :NERDTreeToggle<CR>
 ```
+#### Добавляем подсветку кода
+```
+syntax on
+```
+Получаем такой .vimrc
+```
+call plug#begin('~/.vim/plugged')
+
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
+call plug#end()
+
+set number "нумерация строк
+set expandtab "заменяем табы на пробелы
+"set tabstop=2 "размер таба - 2 пробела
+syntax on
+   
+set hlsearch "подсветка поисковых резкльтатов
+set incsearch "инкрементальный поиск
+
+"mappings
+
+map <C-n> :NERDTreeToggle<CR>
+```
