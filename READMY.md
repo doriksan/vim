@@ -23,3 +23,9 @@ set expandtab "заменяем табы на пробелы
 set hlsearch "подсветка поисковых резкльтатов
 set incsearch "инкрементальный поиск
 ```
+## Менеджеры плагинов vim
+
+[https://github.com/VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim)
+
+[]()
+
