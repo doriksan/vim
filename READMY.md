@@ -122,6 +122,8 @@ map <C-n> :NERDTreeToggle<CR>
 ```
 "colorschemes
 Plug 'morhetz/gruvbox'
+colorscheme gruvbox
+set background=dark
 ```
 Получаем такой .vimrc
 ```
